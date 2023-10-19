@@ -46,3 +46,9 @@ service:
 ```sh
 $ ./agit-trace2-collector --config=<config-file>
 ```
+
+### TroubleShoot
+
+**could not create socket: listen unix /usr/trace2.socket: bind: no such file or directory**
+
+socket所在的目录不存在或者没有权限。
