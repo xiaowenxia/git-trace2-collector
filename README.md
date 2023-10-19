@@ -1,7 +1,6 @@
-## agit-trace2-collector
+## git-trace2-collector
 
-agit 把 trace2 数据推送到[阿里云SLS Trace服务](https://sls.console.aliyun.com/lognext/trace)上。
-
+把 git trace2 数据推送到[阿里云SLS Trace服务](https://sls.console.aliyun.com/lognext/trace)上。
 
 ### 编译
 ```sh
@@ -44,8 +43,12 @@ service:
 ### 运行
 
 ```sh
-$ ./agit-trace2-collector --config=<config-file>
+$ ./git-trace2-collector --config=<config-file>
 ```
+
+### 参考
+* trace2receiver: https://github.com/git-ecosystem/trace2receiver
+* Measuring Git performance with OpenTelemetry: https://github.blog/2023-10-16-measuring-git-performance-with-opentelemetry/
 
 ### TroubleShoot
 

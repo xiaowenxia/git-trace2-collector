@@ -1,4 +1,4 @@
 all: build
 
 build:
-	go build -o agit-trace2-collector
+	go build -o git-trace2-collector
